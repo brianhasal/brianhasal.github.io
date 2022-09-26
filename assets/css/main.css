@@ -4014,7 +4014,12 @@ input, select, textarea {
 
 
 
-	#phantom {
-		min-height: 187px;
-		width: 100%
-	}
+
+#phantom {
+	min-height: 187px;
+	width: 100%
+}
+
+#coalition {
+	max-height: 318px;
+}
