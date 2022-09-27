@@ -9,6 +9,7 @@
 		<title>Brian Hasal - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -49,7 +50,7 @@
 							<div class="inner">
 
 
-								<h4 style="text-align:center;">Hover over each project to see details || Click to see code at GitHub</h4>
+								<h4 style="text-align:center;">Hover over a project to see its details || Click to see code at GitHub</h4>
 
 
 								<!-- <h3>Write Something Pithy About Portfolios</h3>
@@ -60,25 +61,66 @@
 								<h5>Projects</h5> -->
 								<div class="box alt">
 									<div class="row gtr-50 gtr-uniform">
-										<div class="col-12"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div>
+										<div class="col-12">
+											<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										</div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/Coalition-Technologies"><span class="image fit"><img id="coalition" class="portfolio_images" src="images/CoalTThumb.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/Coalition-Technologies"></a> -->
+											<button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#myModal" style="min-height:100%;">
+												<span class="image fit">
+													<img id="coalition" class="portfolio_images" src="images/CoalTThumb.png" alt="" />
+												</span>
+											</button>
+											<div class="modal fade in" id="myModal" role="dialog">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close" data-dismiss="modal">&times;>Close</button>
+															<h5 class="modal-title" id="modal-title">Coalition Technolgies</h5>
+														</div>
+														<div class="modal-body">
+															<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iste labore officiis quisquam, hic placeat. Deleniti cupiditate laboriosam at non doloremque quod optio numquam, corporis, maiores, possimus quos incidunt. Nesciunt?</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-primary" data-dismiss="modal">Exit</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/marvel_puzzle_quest_api"><span class="image fit"><img src="images/MarvAPI.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/marvel_puzzle_quest_api"></a> -->
+											<span class="image fit"><img src="images/MarvAPI.png" alt="" /></span></div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/marvel-puzzle-quest-frontend"><span class="image fit"><img class="portfolio_images" src="images/MarvFrnt.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/marvel-puzzle-quest-frontend"></a> -->
+											<span class="image fit"><img class="portfolio_images" src="images/MarvFrnt.png" alt="" /></span></div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/tarokka"><span class="image fit"><img class="portfolio_images" src="images/TarokkaB.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/tarokka"></a> -->
+											<span class="image fit"><img class="portfolio_images" src="images/TarokkaB.png" alt="" /></span></div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/Connect_4"><span class="image fit"><img class="portfolio_images" src="images/Connect4.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/Connect_4"></a> -->
+											<span class="image fit"><img class="portfolio_images" src="images/Connect4.png" alt="" /></span></div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/bowling_game"><span class="image fit"><img class="portfolio_images" src="images/bowling.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/bowling_game"></a> -->
+												<span class="image fit"><img class="portfolio_images" src="images/bowling.png" alt="" /></span></div>
 										
-										<div class="col-4"><a href="https://github.com/brianhasal/war_card_game"><span class="image fit"><img class="portfolio_images" src="images/War.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/war_card_game"></a> -->
+											<span class="image fit"><img class="portfolio_images" src="images/War.png" alt="" /></span></div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/lights_out"><span class="image fit"><img class="portfolio_images" src="images/LightsOut.jpg" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/lights_out"></a> -->
+											<span class="image fit"><img class="portfolio_images" src="images/LightsOut.jpg" alt="" /></span></div>
 
-										<div class="col-4"><a href="https://github.com/brianhasal/bubble_sort"><span class="image fit"><img class="portfolio_images" src="images/bubsrt.png" alt="" /></span></a></div>
+										<div class="col-4">
+											<!-- <a href="https://github.com/brianhasal/bubble_sort"></a> -->
+											<span class="image fit"><img class="portfolio_images" src="images/bubsrt.png" alt="" /></span></div>
 
 
 
