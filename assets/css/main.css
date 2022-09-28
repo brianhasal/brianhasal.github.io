@@ -4020,6 +4020,21 @@ input, select, textarea {
 	width: 100%
 }
 
-#coalition {
+#myModal {
+	top: 40px;
+	max-height: 760px;
+}
+
+#modalCoalThumb {
+	width: 465px;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+#coalBody {
+	bottom: -20px;
+}
+
+#bannerFlatten {
 
 }
