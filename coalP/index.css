@@ -1,0 +1,1137 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 1600px;
+  min-height: 2644px;
+}
+
+.head {
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+}
+
+
+
+
+
+
+
+/* MAIN NAVIGATION BAR */
+
+.navbar {
+  font-size: 12px;
+  font-family: "Lato";
+  color: rgb(254, 254, 255);
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 1.667;
+  position: fixed;
+  display: flex;
+  width: 1600px;
+  height: 50px;
+  background-color: transparent;
+}
+
+/* LOGO */
+.logo_nav {
+  position: absolute;
+  left: 343px;
+  width: 43px;
+  height: 43px;
+  top: 8px;
+}
+
+/* LINKS DIV */
+.nav_links{
+  position: absolute;
+  line-height: 1.667;
+  top: 19.498px;
+  right: 330px;
+}
+
+/* INDIVIDUAL LINK */
+.link {
+  font-size: 12px;
+  font-family: "Lato";
+  color: rgb(254, 254, 255);
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* HYPERLINK FORMATTING */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.shape_1_copy_2 {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  left: 1218px;
+  width: 55px;
+  top: 37px;
+  height: 1px;
+  z-index: 1001;
+}
+
+.shape_1_copy {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  left: 1098px;
+  width: 68px;
+  height: 1px;
+  top: 37px;
+  z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOMEPAGE */
+.homepage {
+  width: 1600px;
+  height: 825px;
+  background: url("./lamountains.png") ;
+  z-index: 103;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STICKY NAVBAR */
+.navbar_sticky {
+  overflow: hidden;
+  background-color: rgb(254, 254, 255);
+  position: sticky;
+  left: 0px;
+  top: 0;
+  width: 1600px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+
+
+/* STICKY LOGO */
+.logo_sticky {
+  padding-top: 3px;
+  position: sticky;
+  width: 43px;
+  height: 43px;
+  left: 343px;
+  margin: 5px;
+}
+
+/* STICKY LOS ANGELES TEXT */
+.los_angeles_mountains_text {
+  padding-top: 6px;
+  font-size: 28px;
+  font-family: "Bebas Neue";
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
+  line-height: 0.8;
+  height: 43px;
+  text-align: justify;
+  position: sticky;
+  left: 396px;
+
+
+  
+
+}
+
+/* BREAK */
+.br {
+  display: block;
+  position: sticky;
+}
+
+
+/* STICKY 'MOUNTAIN' */
+.mountains {
+  -webkit-transform:scale(1.1,1);
+  
+}
+
+
+
+/* STICKY LINKS DIV */
+.nav_links_sticky {
+  display: flex;
+  /* flex-direction: column; */
+  position: sticky;
+  /* line-height: 1.667; */
+  left: 1098px;
+  height: 30px;
+  z-index: 980;
+
+
+  
+}
+
+
+/* STICKY INDIVIDUAL LINK */
+.link_sticky {
+  position: sticky;
+  display: flex;
+  font-size: 12px;
+  font-family: "Lato";
+  color: #414f6b;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.sticky_shape_1_copy_2 {
+  background-color: rgb(65, 79, 107);
+  position: absolute;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 55px;
+  left: 1218px;
+  /* top: 54px; */
+  height: 1px;
+  z-index: 982;
+}
+.sticky_shape_1_copy {
+  background-color: rgb(65, 79, 107);
+  position: absolute;
+  left: 1098px;
+  /* top: 25px; */
+  width: 68px;
+  height: 1px;
+  z-index: 981;
+}
+
+#collapsing_menu, .dropdown-content{
+  display: none;
+  border: 0px;
+}
+
+@media screen and (max-width: 1266px) {
+  .nav_links_sticky, .sticky_shapes, .nav_links {
+    display: none;
+  }
+  #collapsing_menu {
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 35px;
+    left: 512px;
+    background-image: url('./menu.png');
+    border: 0px;
+    background-color: transparent;
+  }
+
+  #dropdown_window {
+    display: none;
+    align-items: center;
+  }
+
+  .dropdown-content {
+    position: absolute;
+    display: flex;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 565px;
+    bottom: 15px;
+  }
+
+  .dropdown-content a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 12px;
+    font-family: "Lato";
+    color: #414f6b;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+
+
+
+/* 
+
+STICKY COLLAPSING MENU - UNFINISHED
+.collapsible-menu {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  right: 0px;
+
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  
+}
+
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.collapsible-menu a {
+  display:sticky;
+  padding: 3px;
+  font-size: 12px;
+  font-family: "Lato";
+  color: #414f6b;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.collapsible-menu label {
+  display: fixed;
+  cursor: pointer;
+}
+
+input#menu {
+  display: none;
+}
+
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
+ */
+
+
+
+
+
+
+
+
+
+/* PAGE ONE */
+.page_one_A {
+  position: absolute;
+  width: 1600px;
+  height: 980px;
+  background: url("./Bg1.png");
+}
+
+.page_one_body {
+  width: 100%;
+  height: 100%;
+}
+
+._01_ {
+  font-size: 11.264px;
+  font-family: "Oswald";
+  color: rgba(65, 79, 107, 0.502);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
+  -webkit-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
+  -ms-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
+  position: absolute;
+  left: 395.747px;
+  top: 149px;
+}
+
+
+._history {
+  font-size: 11.264px;
+  font-family: "Oswald";
+  color: rgb(65, 79, 107);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 487.5px;
+  top: 160px;
+  z-index: 85;
+}
+
+.lorem_ipsum {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(0, 0, 0);
+  font-weight: light;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 392.312px;
+  top: 210px;
+  width: 822px;
+  height: 62px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_one_footer {
+  position: absolute;
+  width: 1600px;
+  height: 195px;
+  bottom: 0;
+}
+
+.bg_rectangle_24 {
+  background-color: rgb(65, 79, 107, 0.8);
+  width: 1600px;
+  height: 195px;
+}
+
+.carousel {
+  margin: auto;
+  display: flex;
+  padding-top: 26px;
+  max-width: 910px;
+  overflow-x: scroll;
+  gap: 10px;
+  
+}
+
+
+
+.thumbnail_1 {
+  background-image: url("./thumb1.png");
+  background-size: 113% 125%;
+  background-position: -7px;
+  top: 26px;
+  min-width: 220px;
+  max-width: 220px;
+  max-height: 135px;
+  min-height: 135px;
+}
+
+.thumbnail_2 {
+  background-image: url("./thumb2.png");
+  background-size: 114% 124%;
+  background-position: left -28px top 0px;
+  top: 26px;
+  min-width: 220px;
+  max-width: 220px;
+  max-height: 135px;
+  min-height: 135px;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+}
+
+
+.fssw {
+  border: 0;
+  padding-top: 15px;
+}
+.switcher {
+  display: flex;
+  justify-content: center;
+  margin-top: -8px;
+}
+
+.btn {
+  display: flex;
+  background-color: #636d81;
+  border-radius: 10px;
+  padding: 3px 3px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_2 {
+  position: absolute;
+  top: 1879px;
+  width: 1600px;
+  margin-top: 0px;
+  background-color: white;
+}
+.two_text {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  width: 1600px;
+  height: 180px;
+  align-items: center;
+}
+
+
+._02_ {
+  display: flex;
+  font-size: 11.264px;
+  font-family: "Oswald";
+  color: rgba(65, 79, 107, 0.502);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
+  -webkit-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
+  -ms-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
+  position: absolute;
+  left: 439.543px;
+  margin-top: 35px;;
+}
+
+
+.climb {
+  font-size: 11.264px;
+  font-family: "Oswald";
+  color: rgb(65, 79, 107);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 538.675px;
+  margin-top: 57px;
+}
+
+.cras_scel {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 623.312px;
+  width: 590px;
+  height: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.tabs {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+
+.mountain_off {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.mountain_off:before {
+  position: absolute;
+  line-height:26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .mountain_off {
+  background-color: #2196F3;
+}
+
+input:focus + .mountain_off {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .mountain_off:before {
+  content: attr(data-on);
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tabs {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 180px;
+  width: 1600px;
+  z-index: 35;
+}
+
+.switch {
+  position: absolute;
+  left: 0px;
+  /* margin-left: 371.232px; */
+  width: 1600px;
+  height: 40px;
+  margin-bottom: -100px;
+}
+
+#mountain1_active {
+  display: block;
+}
+
+#mountain1c_active {
+  display: block;
+}
+
+#mountain2_active {
+  display: none;
+}
+
+#mountain2c_active {
+  display: none;
+}
+
+
+
+.mountain_1_a {
+  display: flex;
+  font-size: 7px;
+  font-family: "Oswald";
+  color: rgb(65, 79, 107);
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 371.232px;
+  top: 15px;
+  /* top: 201.03px; */
+  z-index: 40;
+}
+
+.mountain_2_i {
+  font-size: 7px;
+  font-family: "Oswald";
+  background-color: rgb(65, 79, 107);;
+  color: rgb(176, 180, 190);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 515.126px;
+  top: 15px;
+  /* top: 199.276px; */
+  z-index: 39;
+}
+
+.rectangle_m1_a {
+  background-color: rgb(176, 180, 190);
+  position: absolute;
+  left: 320px;
+  /* top: 184px; */
+  width: 140px;
+  height: 40px;
+  z-index: 38;
+}
+
+
+.rectangle_m2_i {
+  background-color: rgb(65, 79, 107);
+  position: absolute;
+  left: 460px;
+  /* top: 184px; */
+  width: 140px;
+  height: 40px;
+  z-index: 37;
+}
+
+
+
+
+
+
+
+
+
+.mountain_2_a {
+  font-size: 7px;
+  font-family: "Oswald";
+  color: rgb(65, 79, 107);;
+  background-color: rgb(176, 180, 190);
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 515.126px;
+  top: 15px;
+  /* top: 199.276px; */
+  z-index: 36;
+}
+
+.mountain_1_i {
+  display: flex;
+  font-size: 7px;
+  font-family: "Oswald";
+  background-color: rgb(65, 79, 107);
+  color: rgb(176, 180, 190);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 371.232px;
+  top: 15px;
+  /* top: 201.03px; */
+  z-index: 35;
+}
+
+.rectangle_m2_a {
+  background-color: rgb(176, 180, 190);
+  position: absolute;
+  left: 460px;
+  /* top: 184px; */
+  width: 140px;
+  height: 40px;
+  z-index: 34;
+}
+
+
+.rectangle_m1_i {
+  background-color: rgb(65, 79, 107);
+  position: absolute;
+  left: 320px;
+  /* top: 184px; */
+  width: 140px;
+  height: 40px;
+  z-index: 33;
+}
+
+
+
+
+
+
+
+
+.linkSwitch {
+  margin-left: 320px;
+  width: 280px;
+  height: 40px;
+  background-color: transparent;
+  z-index: 41;
+}
+
+
+.rectangle_20 {
+  background-color: rgb(65, 79, 107);
+  position: absolute;
+  left: 0px;
+  /* top: 184px; */
+  width: 1600px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Tab_Content {
+  position: absolute;
+  left: 0px;
+  top: 224px;
+  width: 1600px;
+  height: 546px;
+  margin-top: -4px;
+
+}
+
+.Tab_1 {
+  position: absolute;
+  left: 0px;
+  height: 546px;
+  width: 1600px;
+  z-index: 100;
+}
+
+.Tab_1_Content {
+  position: absolute;
+  top: 0px;
+  width: 1600px;
+  height: 546px;
+  overflow: hidden;
+}
+
+.page_2_background_m1 {
+  background-image: url("./mountain1.png");
+  background-size: 92% auto;
+  margin-top: -297px;
+  margin-left: -31px;
+  margin-right: 0;
+  width: 1800px;
+  height: 860px;
+  overflow: hidden;
+}
+
+
+.Rectangle_22A {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.702;
+  position: absolute;
+  left: 351px;
+  top: 90px;
+  width: 352px;
+  height: 229px;
+  z-index: 24;
+}
+
+.TAB_1_SCHEDULE {
+  font-size: 11.264px;
+  font-family: "Oswald";
+  color: rgb(65, 79, 107);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 433.823px;
+  top: 125px;
+  z-index: 26;
+}
+
+.TAB_1_LOREM {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: thin;
+  position: absolute;
+  left: 391px;
+  top: 158px;
+  width: 270px;
+  height: 131px;
+  z-index: 25;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+.Tab_2 {
+  position: absolute;
+  left: 0px;
+  height: 546px;
+  width: 1600px;
+}
+
+.Tab_2_Content {
+  position: absolute;
+  top: 0px;
+  width: 1600px;
+  height: 546px;
+  overflow: hidden;
+}
+
+.page_2_background_m2 {
+  background-image: url("./mountain2.png");
+  background-size: 102.5% auto;
+  margin-top: -190px;
+  margin-left: -15px;
+  width: auto;
+  height: 1067px;
+  overflow: hidden;
+
+}
+
+
+.Rectangle_22B {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  left: 351px;
+  top: 90px;
+  width: 352px;
+  height: 229px;
+}
+
+
+.TAB_2_SCHEDULE {
+  font-size: 11.264px;
+  font-family: "Oswald";
+  color: rgb(65, 79, 107);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -webkit-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  -ms-transform: matrix( 2.84103421435448,0,0,2.84103421435448,0,0);
+  position: absolute;
+  left: 433.823px;
+  top: 125px;
+  z-index: 17;
+  opacity: 1;
+}
+
+.TAB_2_LOREM {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: thin;
+  position: absolute;
+  left: 391px;
+  top: 158px;
+  width: 270px;
+  height: 131px;
+  z-index: 16;
+  padding-right: -10px;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_container {
+  display: flex;
+  position: absolute;
+  width: 1600px;
+  height: 74px;
+  top: 2650px;
+  margin-top: -18px;
+  z-index: 500;
+
+
+}
+.rectangle_19 {
+  background-color: rgb(65, 79, 107);
+  position: absolute;
+  width: 1600px;
+  min-height: 74px;
+  bottom: 0;
+
+}
+
+
+/* FOOTER LOGO */
+.footer_logo {
+  padding-top: 8px;
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 343px;
+  margin: 5px;
+  z-index: 9;
+
+}
+
+
+/* FOOTER LOGO COLOR */
+.layer_629 {
+ 
+  padding-top: 10px;
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 343px;
+  margin: 5px;
+  z-index: 8;
+}
+.footer_losangeles_mountains {
+  font-size: 23px;
+  font-family: "Bebas Neue";
+  color: rgb(99, 118, 157);
+  text-transform: uppercase;
+  line-height: 1.079;
+  text-align: justify;
+  position: absolute;
+  left: 396px;
+  z-index: 6;
+  margin-top: .3em;
+  padding-top: 8px;
+  min-height: 43px;
+}
+
+
+/* FOOTER BREAK */
+.footer_br {
+  display: block;
+  margin-bottom: -.28em;
+  padding: 0;
+}
+
+
+/* FOOTER 'MOUNTAIN' */
+.footer_mountains {
+  -webkit-transform:scale(1.1,1);
+  
+}
+
+  
+
+.COPYRIGHT_2016__ALL_RIGHTS_RESERVED {
+  font-size: 12px;
+  font-family: "Lato";
+  color: rgb(99, 118, 157);
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 1.667;
+  position: absolute;
+  right: 321px;
+  z-index: 4;
+  align-self: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

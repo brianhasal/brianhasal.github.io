@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head class="head"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <nav>
+      <div class="navbar">
+        <img src="./Logo.png" class="logo_nav" />
+        <div class="nav_links">
+          <a href="#_01_history" class="link">01. history</a>
+          <a href="#_01_history" class="shape_1_copy"></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#_02_team" class="link">02. team</a>
+          <a href="#_02_team" class="shape_1_copy_2" style="text-decoration:solid"></a>
+          
+
+        </div>
+      </div>
+    </nav>
+  </head>
+  <body>
+
+    <div class="homepage"></div>
+    <nav class="navbar_sticky">
+      <img src="./logo-sticky.png" class="logo_sticky" />
+      <div class="los_angeles_mountains_text">
+        <div class="los_angeles">LOSANGELES</div>
+        <span class="br"></span>
+        <div class="mountains">&nbsp;MOUNTAINS</div>
+      </div>
+
+      <button class="dropbtn" id="collapsing_menu" onmousedown="revealMenu('dropdown_window')"></button>
+      <div id="dropdown_window" class="dropdown">
+        <div class="dropdown-content">
+          <a href="#_01_history">01. HISTORY</a>
+          <a href="#_02_team">02. TEAM</a>
+        </div>
+      </div>
+
+      <div class="nav_links_sticky">
+        <a href="#_01_history" class="link_sticky">01. history</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#_02_team" class="link_sticky">02. team</a>
+      </div>
+      <div class="sticky_shapes">
+        <a href="#_01_history" class="sticky_shape_1_copy"></a>
+        <a href="#_02_team" class="sticky_shape_1_copy_2"></a>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </nav>
+    <span></span>
+    <div class="page_one_A" id="_01_history">
+      <div class="page_one_body">
+        <div class="_01_">01.</div>
+        <div class="_history">HISTORY</div>
+        <div class="lorem_ipsum" id="carouselMarkers">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum,
+          consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
+          scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam.
+          Vivamus suscipit dignissim tortor nec congue.
+        </div>
+      </div>
+      <div class="page_one_footer">
+        <div class="bg_rectangle_24">
+          <div class="carousel">
+              <a href="thumb1.png"><div class="thumbnail_1" id="startMarker"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div>            
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>
+              <a href="thumb1.png"><div class="thumbnail_1" id="midMarker"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>          
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2"></div></a>           
+              <a href="thumb1.png"><div class="thumbnail_1"></div></a>
+              <a href="thumb2.png"><div class="thumbnail_2" id="endMarker"></div></a>
+            </div>
+            <div class="fssw">
+              <div class="switcher">
+                <a href="#startMarker" class="carouselMarkers"><div class="btn" id="1"></div></a>
+                <a href="#midMarker" class="carouselMarkers"><div class="btn" id="2"></div></a>
+                <a href="#endMarker" class="carouselMarkers"><div class="btn" id="3"></div></a>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <span></span>
+
+
+
+
+
+
+
+
+
+    <div class="page_2" id="_02_team">
+      <div class="two_text">
+        <div class="_02_">02.</div>
+        <div class="climb">CLIMB</div>
+        <div class="cras_scel">
+          Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam.
+          Vivamus suscipit dignissim tortor nec congue.
+        </div>
+      </div>
+
+
+      <div class="tabs">
+        <label for="mountain-switch" class="switch">
+          <span>
+            <div id="mountain1_active">
+              <div class="mountain_1_a">MOUNTAIN 1</div>
+              <div class="rectangle_m1_a"></div>
+              <div class="mountain_2_i">MOUNTAIN 2</div>
+              <div class="rectangle_m2_i"></div>
+            </div>
+            <div id="mountain2_active">
+              <div class="mountain_1_i">MOUNTAIN 1</div>
+              <div class="rectangle_m1_i"></div>
+              <div class="mountain_2_a">MOUNTAIN 2</div>
+              <div class="rectangle_m2_a"></div>
+            </div>
+          </span>
+        </label>
+            <a href="javascript:;" class="linkSwitch" onmousedown="changeDiv('mountain1_active', 'mountain2_active', 'mountain1c_active', 'mountain2c_active');"></a>
+            <div class="rectangle_20"></div>
+      </div>
+
+
+
+
+      <div class="Tab_Content">
+        <div id="mountain1c_active" class="Tab_1">
+          <div class="Tab_1_Content">
+            <div class="page_2_background_m1"></div>
+            <div class="Rectangle_22A"></div>
+            <div class="TAB_1_SCHEDULE">SCHEDULE</div>
+            <div class="TAB_1_LOREM">
+              25 Nov 2016 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vestibulum
+              viverra
+              <br />
+              28 Nov 2016 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vestibulum
+              viverra
+              <br />
+              <br />
+              18 Dec 2016 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vestibulum
+              viverra
+              <br />
+              <br />
+              7 Jan
+              2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vestibulum
+              viverra
+            </div>
+          </div>
+        </div>
+        <div id="mountain2c_active" class="Tab_2">
+          <div class="Tab_2_Content">
+            <div class="page_2_background_m2"></div>
+            <div class="Rectangle_22B"></div>
+            <div class="TAB_2_SCHEDULE">SCHEDULE</div>
+            <div class="TAB_2_LOREM">
+              17 Nov 2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Vestibulum viverra<br><br>
+
+              13 Dec 2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Vestibulum viverra<br>
+              28 Dec 2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Vestibulum viverra<br><br>
+              
+              9 Feb 2017  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Vestibulum viverra
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_container">
+      <div class="rectangle_19"></div>
+    
+      <img src="./logo-dim.png" class="layer_629" />
+      
+      <div class="footer_losangeles_mountains">
+        <div class="footer_los_angeles">LOSANGELES</div>
+        <span class="footer_br"></span>
+        <div class="footer_mountains">&nbsp;MOUNTAINS</div>
+      </div>
+      <div class="COPYRIGHT_2016__ALL_RIGHTS_RESERVED">copyright 2016. all rights reserved.</div>
+    </div>
+    <script src="index.js"></script>
+
+  </body>
+  
+</html>

@@ -4025,7 +4025,7 @@ input, select, textarea {
 	max-height: 760px;
 }
 
-#modalCoalThumb {
+.modalImages {
 	width: 465px;
 	max-height: 100%;
 	overflow: hidden;
@@ -4035,6 +4035,3 @@ input, select, textarea {
 	bottom: -20px;
 }
 
-#bannerFlatten {
-
-}
