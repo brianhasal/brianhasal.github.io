@@ -4016,7 +4016,7 @@ input, select, textarea {
 
 
 #phantom {
-	min-height: 187px;
+	/* min-height: 179px; */
 	width: 100%
 }
 
